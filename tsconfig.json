@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "types": ["node"],
+    "lib": [
+      "es2015"
+    ],
+    "baseUrl": ".",
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    // "declaration": true
+  },
+  "include": ["./src/"],
+  "exclude": ["node_modules", "dist", "__test__", "**/*.test.ts"]
+}
+  
